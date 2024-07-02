@@ -7,8 +7,4 @@ if 5<8:
 else:
     print("Five is more ")
     
-#variable
-x = 4
-y = 74
-if y>x:
-    print("y" "is grater than" "x")
+
