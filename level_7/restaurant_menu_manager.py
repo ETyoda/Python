@@ -9,7 +9,7 @@ menu['steak']=("Main",20.0)
 menu['soda']=("Drink",2.0)
 #remove item on menu
 menu.pop('Salad')
- 
+
 #display menu     
 def display_menu(menu):
     print("menu:")
@@ -28,3 +28,12 @@ def count_menu(menu):
 
 display_menu(menu)
 print("The catagory of the menu ",count_menu(menu))
+
+#Update new price
+def dis_menu(menu,dish_name,new_price):
+     if dish_name in menu:
+        menu[dish_name]=(menu[dish_name][1], new_price)
+     else:
+        print("Enter correct the dish")
+dis_menu(menu,"soda",523)
+display_menu(menu)
