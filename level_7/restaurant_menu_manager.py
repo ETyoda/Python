@@ -14,7 +14,7 @@ menu.pop('Salad')
 def display_menu(menu):
     print("menu:")
     for dish,info in menu.items():
-        print("menu",dish,"| Catagory",info[0]," Price ",info[1],"$")
+        print("menu",dish,"| Catagory:",info[0]," Price ",info[1],"$")
         
 #count catagory
 def count_menu(menu):
